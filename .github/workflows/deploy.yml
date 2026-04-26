@@ -30,4 +30,3 @@ jobs:
       - name: Deploy Cloud Function (HTTP Trigger)
         run: |
           gcloud functions deploy http_hello_world --runtime python311 --trigger-http --entry-point http_hello_world --region us-central1 --allow-unauthenticated
-
